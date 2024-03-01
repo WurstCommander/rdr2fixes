@@ -65,7 +65,9 @@ I removed them, the GPU Caps Viewer showed this:
 You can just use DX12 which had worse performance for me.
 Just change this setting in this file:
 
-"YOUR_DOCUMENTS_FOLDER_NOT_THE_GAME_INSTALL\Rockstar Games\Red Dead Redemption 2\Settings\system.xml"
+```
+YOUR_DOCUMENTS_FOLDER_NOT_THE_GAME_INSTALL\Rockstar Games\Red Dead Redemption 2\Settings\system.xml
+```
 
 Change
 
