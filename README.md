@@ -48,7 +48,8 @@ These were my Twitch Layers:
     C:\Program Files\Common Files\Twitch\Studio\Versions\0.90.7641.33738\TwitchOverlayVulkanConfig64.json
     C:\Program Files\Common Files\Twitch\Studio\Versions\0.90.7641.33738\TwitchOverlayVulkanConfig32.json
 
-After I removed them, the GPU Caps Viewer showed this:
+After I removed them with Regedit, the GPU Caps Viewer showed this:
+(*If you are unsure, backup the Registry -> go to "File" > "Export" to save a backup* - it not rocket science, but safty first)
 
     Instance layers: 9
      1/ VK_LAYER_NV_optimus (spec:1.3.224, impl:1)
