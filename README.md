@@ -1,4 +1,4 @@
-Red Dead Redemption 2 - Startup fix 
+**Red Dead Redemption 2 - Startup fix**
 
 This is a followup to a fix regarding Red Dead Redemption 2 not even starting, you hit "Play", nothing happens, no error message nothing:
 [https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/](https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/)
@@ -60,7 +60,7 @@ I removed them, the GPU Caps Viewer showed this:
 
 **So Twitch's Layer is gone and Red Dead Redemption 2 starts.**
 
-**Alternative fix or the lazy/Quick fix using DX12**
+**Alternative fix or the lazy / Quick fix using DX12**
 --------------------
 You can just use DX12 which had worse performance for me.
 Just change this setting in this file:
