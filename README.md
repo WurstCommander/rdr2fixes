@@ -1,12 +1,10 @@
 **Red Dead Redemption 2 - Startup fix**
 
-This is a followup to a fix regarding Red Dead Redemption 2 not even starting, you hit "Play", nothing happens, no error message, nothing else:
-[https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/](https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/)
+I suddenly had the error that my Red Dead Redemption 2 install didn't work anymore. Right after clicking "PLAY" on the launcher, the rdr2.exe is open for a second and closes right away, no error message shown, none in the error log files (very helpful, thx rockstar)
 
-This fix worked, but isn't really the right solution, after getting tips from /u/diceman2037 the cause of the problem are old / deprecated Vulkan Layers.
+I tried deleting settings or profile uninstalling the launcher, removing all files, moving the installation and even a complete reinstallation.
 
-If you want a deeper understanding, read this:
-[https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/j0yml6k/](https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/j0yml6k/)
+The error is that the VULKAN Api doesn't work anymore and if you delete the profile / reinstall it defaults to the Vulkan API.
 
 ----
 
@@ -21,7 +19,9 @@ Even if you believe you don't have such layers, check them out :-) It's not only
 You can see your Vulkan Layers with GPU Caps Viewer ([https://www.techspot.com/downloads/4618-gpu-caps-viewer.html](https://www.techspot.com/downloads/4618-gpu-caps-viewer.html)) 
 
 Screenshot:
-[https://imgur.com/a/GgXHHl2](https://imgur.com/a/GgXHHl2)
+
+![image info](./pics/gpucapsview.png)
+
 
 My old Vulkan layer was:
 
@@ -90,3 +90,12 @@ I hope this helps, some people couldn't even launch RDR2 the first time, so ther
 I think you could also remove the Layers with the Vulkan SDK if you aren't comfortable using regedit.exe
 
 ---
+
+
+This is a followup to a fix regarding Red Dead Redemption 2 not even starting, you hit "Play", nothing happens, no error message, nothing else:
+[https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/](https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/)
+
+This fix worked, but isn't really the right solution, after getting tips from /u/diceman2037 the cause of the problem are old / deprecated Vulkan Layers.
+
+If you want a deeper understanding, read this:
+[https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/j0yml6k/](https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/j0yml6k/)
