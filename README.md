@@ -1,6 +1,6 @@
 **Red Dead Redemption 2 - Startup fix**
 
-This is a followup to a fix regarding Red Dead Redemption 2 not even starting, you hit "Play", nothing happens, no error message nothing:
+This is a followup to a fix regarding Red Dead Redemption 2 not even starting, you hit "Play", nothing happens, no error message, nothing else:
 [https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/](https://old.reddit.com/r/PCRedDead/comments/ykenv9/psa_if_red_dead_redemption_2_crashes_instantly/)
 
 This fix worked, but isn't really the right solution, after getting tips from /u/diceman2037 the cause of the problem are old / deprecated Vulkan Layers.
